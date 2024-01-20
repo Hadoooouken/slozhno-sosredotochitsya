@@ -1,0 +1,83 @@
+/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+
+.page {
+  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+ 
+  background-color: #000028;
+  background-image: url(/images/cover-image-dark.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  
+  
+  
+}
+
+.header {
+  position: relative;
+   block-size: 100vh;
+  min-height: 375px;
+  height: 100vh;
+  padding: 20px;
+  
+  
+  
+}
+
+.decorated-zone::before {
+  content: '';
+  position: absolute;
+  border-top: 1px solid #FF0070;
+  border-right: 1px solid #FF0070;
+  right: 10px;
+  top: 10px;
+  width: 25px;
+  height: 25px;
+
+}
+
+.decorated-zone::after {
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #FF0070;
+  border-left: 1px solid #FF0070;
+  left: 10px;
+  bottom: 10px;
+  width: 25px;
+  height: 25px;
+
+
+}
+
+.decoration__element::before {
+  content: 'REC';
+  color: #FF0070;
+  width: 26px;
+  height: 26px;
+  right: 25px;
+  
+  position: absolute;
+  
+}
+
+.decoration__element::after {
+  content: '';
+  color: #FF0070;
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  display: block;
+}
+
+
+
+.header__title {
+  font-family: var(--main-font);
+  color: var(--title-color);
+
+}
+
+.header__text {
+  color: var(--text-color);
+
+}

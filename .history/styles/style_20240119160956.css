@@ -1,0 +1,28 @@
+/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+
+.page {
+  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  
+  
+}
+
+.header {
+  block-size: 100vh;
+  height: 100vh;
+  min
+  display: grid;
+}
+
+.decorated-zone {
+}
+
+.decoration__element {
+}
+
+.header__title {
+
+}
+
+.header__text {
+
+}
