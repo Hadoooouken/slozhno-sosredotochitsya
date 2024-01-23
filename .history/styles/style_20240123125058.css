@@ -155,7 +155,7 @@
 .right__column {
   font-size: inherit;
   line-height: 23.4px;
-  margin-block-end: 10px;
+  margin-bottom: 10px;
   font-weight: 700;
 }
 
@@ -164,10 +164,10 @@
   line-height: 23.4px;
   color: var(--text-color);
   font-weight: 400;
-  margin-block-end: 20px;
+  margin-bottom: 20px;
 }
 .right__pharahraph:last-child {
-  margin-block-end: 0px;
+  margin-blo: 0px;
 }
 
 .paragraph__link {
