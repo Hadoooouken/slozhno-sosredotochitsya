@@ -1,0 +1,19 @@
+:root {
+  /*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+
+  --button-color: #ff0070;
+  --decoration-element: #ff0070;
+  --background-image: url(/images/cover-image-dark.png);
+  --hover-color: rgb(255 0 112 / 0.4);
+  --main-font: "IBM Plex mono" sans-serif;
+  --focus-color: #ff0070;
+  --main-title: #DB00FF;
+  --sub-title-color: #000028;
+  --title-color: #ff0070;
+  --text-color: #f1b2ce;
+  --bg-color: #000028;
+  --link-color: #ff0070;
+}

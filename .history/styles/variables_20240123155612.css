@@ -1,0 +1,20 @@
+:root {/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+--main-font:'IBM Plex mono' sans-serif;
+--title-color:#DB00FF;
+--main-color:
+--subtitle-color: #000028;
+--text-color: #F1B2CE;
+--section-title: #FF0070;
+--bg-color: #000028;
+--section-color: #FF0070;
+--hover: rgb(255 0 112 / 0.4); 
+--link-color: #FF0070;
+--bg-image: url(./)
+
+
+
+
+}
