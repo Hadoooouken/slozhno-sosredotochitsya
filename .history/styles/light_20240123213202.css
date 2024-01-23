@@ -47,7 +47,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .decoration-element {
+  .theme_light .decoration-element {
     display: none;
   }
 }

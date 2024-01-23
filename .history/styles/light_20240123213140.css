@@ -46,11 +46,7 @@
   }
 }
 
-@media (prefers-color-scheme: light) {
-  .decoration-element {
-    display: none;
-  }
-}
+@media ()
 .theme_light .decoration-element {
   display: none;
 }
