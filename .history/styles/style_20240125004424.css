@@ -328,6 +328,8 @@
     max-width: none;
   }
   .concentration__block {
+    
+
     grid-template-areas:
       "concentration . ."
       "multitasking multitasking multitasking"
