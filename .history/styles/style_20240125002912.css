@@ -330,12 +330,10 @@
   .concentration__block {
     grid-template-columns: none;
 
-    
+    grid-template-areas:
     grid-template-areas:
     "concentration . ."
-    "multitasking multitasking multitasking" 
-    "eat eat eat" 
-    "gadgets gadgets gadgets";
+    "multitasking eat gadgets";
   }
   .how__block {
     grid-column-gap: 20px;

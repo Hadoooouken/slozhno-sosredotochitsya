@@ -320,7 +320,7 @@
   .header__theme-menu-button {
     padding: 4px 13px;
   }
-
+  
   .focus__block {
     gap: 20px;
   }
@@ -330,12 +330,11 @@
   .concentration__block {
     grid-template-columns: none;
 
-    
     grid-template-areas:
-    "concentration . ."
-    "multitasking multitasking multitasking" 
-    "eat eat eat" 
-    "gadgets gadgets gadgets";
+      "concentration"
+      "multitasking"
+      "eat"
+      "gadgets";
   }
   .how__block {
     grid-column-gap: 20px;
@@ -404,7 +403,9 @@
   .concentration__block {
     padding-top: 50px;
   }
-  
+  .concentration{}
+  .grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
 
   .how__block {
     padding-top: 50px;
