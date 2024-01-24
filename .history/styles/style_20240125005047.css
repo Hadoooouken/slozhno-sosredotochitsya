@@ -398,16 +398,11 @@
     max-width: none;
   }
 
-  
-
   .concentration__block {
     padding-top: 50px;
     grid-template-areas:
-      "concentration concentration  ."
-      "multitasking multitasking multitasking"
-      "eat eat eat"
-      "gadgets gadgets gadgets";
-  }
+    "concentration . ."
+    "multitasking eat gadgets";
   }
 
   .how__block {
