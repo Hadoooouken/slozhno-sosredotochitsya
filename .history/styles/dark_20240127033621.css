@@ -1,0 +1,45 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_dark {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  --button-color: #ff0070;
+  --decoration-element: #ff0070;
+  --background-image: url(/images/cover-image-dark.png);
+  --hover-color: rgb(255 0 112 / 0.4);
+  --focus-color: #ff0070;
+  --main-title: #db00ff;
+  --sub-title-color: #000028;
+  --backgroundg-sub-title: #ff0070;
+  --title-color: #ff0070;
+  --text-color: #f1b2ce;
+  --bg-color: #000028;
+  --link-color: #ff0070;
+  --link-status: #f1b2ce;
+  --shadow-color: #ff0070;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --button-color: #ff0070;
+    --decoration-element: #ff0070;
+    --background-image: url(/images/cover-image-dark.png);
+    --hover-color: rgb(255 0 112 / 0.4);
+    --focus-color: #ff0070;
+    --main-title: #db00ff;
+    --sub-title-color: #000028;
+    --backgroundg-sub-title: #ff0070;
+    --title-color: #ff0070;
+    --text-color: #f1b2ce;
+    --bg-color: #000028;
+    --link-color: #ff0070;
+    --link-status: #f1b2ce;
+    --shadow-color: #ff0070;
+  }
+}
