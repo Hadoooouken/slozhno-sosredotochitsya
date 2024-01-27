@@ -23,6 +23,7 @@
   --link-color: #ff8dcb;
   --link-status: #353430;
   --shadow-color: #ff0070;
+  --visible-decoration-element: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -41,9 +42,6 @@
     --link-color: #ff8dcb;
     --link-status: #353430;
     --shadow-color: #ff0070;
+    --visible-decoration-element: hidden;
   }
-}
-
-.page.theme_light .decoration-element {
-  display: none;
 }

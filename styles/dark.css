@@ -23,6 +23,7 @@
   --link-color: #ff0070;
   --link-status: #f1b2ce;
   --shadow-color: #ff0070;
+  --visible-decoration-element: visible;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,5 +42,6 @@
     --link-color: #ff0070;
     --link-status: #f1b2ce;
     --shadow-color: #ff0070;
+    --visible-decoration-element: visible;
   }
 }

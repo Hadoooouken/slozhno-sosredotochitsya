@@ -15,7 +15,6 @@
 .header {
   position: relative;
   block-size: 100vh;
-  min-block-size: 668px;
   padding: 20px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -48,6 +47,8 @@
   position: absolute;
   right: 48px;
   top: 21px;
+  visibility: var(--visible-decoration-element);
+  
 }
 
 .decoration-element::before {
