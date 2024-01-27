@@ -1,1 +1,1 @@
-git@github.com:Hadoooouken/slozhno-sosredotochitsya-main.git
+https://github.com/Hadoooouken/slozhno-sosredotochitsya.git
